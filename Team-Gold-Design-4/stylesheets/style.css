@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Muli', sans-serif;
+    color: #323232;
+    font-size: 26px;
+    line-height: 185.5%;
+    letter-spacing: 2%;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.rooms-container{
+    width: 70%;
+    margin: 0 auto;
+}
+.menu-bar{
+    width: 100%;
+    padding-top: 50px;
+   padding-right: 20px;
+   padding-left: -40px;
+}
+.toggle{
+    display: none;
+}
+.inner-menu {
+    margin: 20px 40px 0px 20px;
+    width: 100%;
+}
+
+.inner-menu ul {
+    margin: 0 auto;
+    padding: auto;
+    list-style: none;
+    text-align: right;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-menu ul li:not(.has-logo)  {
+    position: relative;
+    display: inline-block;
+    float: none;
+}
+
+.inner-menu ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    padding: 10px 40px;
+}
+
+.inner-menu ul li a:hover {
+    color: #8c5000;
+}
+
+.inner-menu ul li a:active {
+    color: #8c5000;
+    text-decoration: underline;
+}
+.logo p span{
+    display: block;
+}
+.logo:not(.footer-logo){
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: -50px;
+    vertical-align: middle;
+}
+.logo:hover{
+    text-decoration: none;
+}
+.logo-name {
+    font-size: 26px;
+    font-family: 'Cinzel Decorative', cursive;
+    text-shadow: -1px 0 #1c1c1c, 0 0.8px #1c1c1c, 0.8px 0 #1c1c1c, 0 -1px #1c1c1c;
+    color: #1c1c1c;
+}
+.logo-tagline{
+    color: #323232;
+    font-size: 18px;
+    margin-top: -20px;
+    font-weight: 700;
+}
+.book-btn {
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    background-color: #8c5000;
+    border: none;
+}
+.services-section{
+    width: 90%;
+    margin: 0 auto;
+}
+.intro-message{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 120px 60px;
+    line-height: normal;
+}
+.page-heading{
+    font-size: 40px;
+    font-family: 'Cinzel', serif;
+    text-shadow: -1px 0 #1c1c1c, 0 0.5px #1c1c1c, 0.5px 0 #1c1c1c, 0 -1px #1c1c1c;
+}
+.jumbotron-text{
+    font-size: 26px;
+    font-family: 'Muli', sans-serif;
+    line-height: 185.5%;
+    letter-spacing: 2%;
+}
+.booking-section{
+    font-size: 16px;
+    background-color: #F4F3F3;
+    padding: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+.booking-section .container{
+    background-color: #ffffff;
+}
+.booking-section ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+.booking-section ul li{
+    display: inline-block;
+}
+.booking-section .main-list{
+    margin-top: 20px;
+    /* background-color: #ffffff; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    width: 90%;
+}
+.has-passenger-info{
+    display: flex;
+}
+.button-submit{
+    margin-top: 15px;
+}
+.rooms{
+    margin-top: 50px;
+}
+.rooms img{
+margin: 40px 0;
+width: 100%;
+}
+.price{
+    font-size: 35px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+
+}
+.more-info{
+    display: inline-block;
+    /* grid-template-columns: 1fr 1fr; */
+}
+.more-info button{
+    border: none;
+    background-color: #8c5000;
+}
+.footer-big-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 100%;
+    margin-top: 50px;
+    align-content: center;
+    border-top: 2px solid lightgray;
+}
+.footer-small-grid{
+display: flex;
+justify-content: space-around;
+flex-flow: row;
+flex-basis: 30%;
+padding-top: 20px;
+}
+.footer-logo{
+    text-decoration: none;
+}
+.footer-small-grid a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.footer-small-grid a:hover{
+    color: #8c5000;
+}
+.contact-block p{
+    margin: 0;
+}
+.has-address{
+    padding-top: 10px;
+}
+.has-socialmedia-icons a{
+    display: inline-block;
+    color: black;
+}
+.has-socialmedia-icons a{
+    /* width: 20px; */
+    margin-right:35px;
+    text-decoration: none;
+    background: none;
+}
+i.fab:not(.fa-instagram){
+    text-shadow: -2px 0 #000, 0 0.8px #000, 0.8px 0 #000, 0 -2px #000;
+    color: white;
+
+}
+
+@media screen and(min-width: 300px) and (max-width: 475px){
+    /* .footer-big-grid{
+      display: inline-block;
+    } */
+
+}
